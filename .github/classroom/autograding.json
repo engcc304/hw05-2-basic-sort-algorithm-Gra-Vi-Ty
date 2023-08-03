@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-2-basic-sort.cpp",
+      "run": "./a.out",
+      "input": "6\r\n9\r\n1\r\n",
+      "output": "9 6 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-2-basic-sort.cpp",
+      "run": "./a.out",
+      "input": "65\r\n91\r\n112\r\n",
+      "output": "112 91 65",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
